@@ -1,2 +1,2 @@
-# gen-sms-powerpcb-kicad
-Simple PCB to provide +5V power to Genesis and SMS carts for testing and CPLD programming
+# Genesis and SMS power PCB
+A simple PCB which provides +5V via a micro-usb phone charger to Genesis and SMS cartridges.
