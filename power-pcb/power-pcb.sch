@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:power-pcb-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -13,19 +14,6 @@ Comment2 "Licensed under CERN OHL v.1.2"
 Comment3 "Copyright René Richard 2018"
 Comment4 ""
 $EndDescr
-$Comp
-L db-connectors:10118194-0001LF CON101
-U 1 1 5BEEF85E
-P 2550 2200
-F 0 "CON101" H 2900 2400 50  0000 C CNN
-F 1 "10118194-0001LF" H 2900 2250 50  0000 C CNN
-F 2 "db-smt:USB-uB-10118194" H 3175 2725 60  0001 C CNN
-F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10118194.pdf" H 4300 2425 60  0001 C CNN
-F 4 "609-4618-1-ND" H 2950 2625 60  0001 C CNN "Digikey"
-F 5 "CONN USB MICRO B RECPT SMT R/A" H 3375 2525 60  0001 C CNN "Description"
-	1    2550 2200
-	-1   0    0    -1  
-$EndComp
 $Comp
 L db-vgparts:GENESIS-CONN CON103
 U 1 1 5BEEF8BA
@@ -258,4 +246,17 @@ Wire Wire Line
 Connection ~ 3600 3150
 Wire Wire Line
 	3600 3150 3050 3150
+$Comp
+L db-connectors:10118192-0002LF CON101
+U 1 1 5BF4018D
+P 2550 2200
+F 0 "CON101" H 2850 2350 50  0000 C CNN
+F 1 "10118192-0002LF" H 2645 2276 50  0000 C CNN
+F 2 "db-smt:USB-10118192-0002" H 3250 2700 60  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10118194.pdf" H 4300 2425 60  0001 C CNN
+F 4 "609-5379-1-ND" H 2950 2625 60  0001 C CNN "Digikey"
+F 5 "CONN USB MICRO B RECPT SMT R/A" H 3375 2525 60  0001 C CNN "Description"
+	1    2550 2200
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
