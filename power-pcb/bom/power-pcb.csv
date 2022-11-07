@@ -1,0 +1,7 @@
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,Description,Digikey
+1,2,"C101, C102",0.1uF/50V,db-passives:C_0805,db-smt:0805,,CAP CER 0.1UF 50V Y5V 0805,1276-1007-1-ND
+2,1,CON101,10118192-0002LF,db-connectors:10118192-0002LF,db-smt:USB-10118192-0002,https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10118194.pdf,CONN USB MICRO B RECPT SMT R/A,609-5379-1-ND
+3,1,CON102,HDR1X2,db-connectors:HDR1X2,db-thparts:HDR1X2,,SIL VERTICAL PC TAIL PIN HEADER,952-2262-ND
+4,1,CON103,GENESIS-CONN,db-vgparts:GENESIS-CONN,db-thparts:GENESIS-CONN,,CONN EDGE DUAL FMALE 64POS 0.100,1761469-1-ND
+5,1,CON104,SMS-CONN,db-vgparts:SMS-CONN,db-thparts:SMS-CONN,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=5530843&DocType=Customer+Drawing&DocLang=English,CONN CARDEDGE FEMALE 50POS 0.100,A31718-ND
+6,1,CON105,USB-B1HSB6,db-connectors:USB-B1HSB6,db-thparts:USB-B1HSxx,http://www.on-shore.com/wp-content/uploads/2015/09/usb-b1hsxx.pdf,CONN USB TYPE B R/A BLACK,ED2983-ND
